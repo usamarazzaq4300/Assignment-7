@@ -1,0 +1,206 @@
+#heading{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+#line{
+    font-family: 'Andika New Basic', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+    border: 3px solid rgb(119,16,247);
+    border-radius: 100px;
+}
+#hero{
+    display: block;
+    margin: 0px auto;
+}
+#intro{
+    background-color:  rgb(119,16,247);
+}
+#content-1{
+    padding: 70px 70px 150px 70px;
+}
+#name{
+    color: white;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 40px;
+}
+#introduction{
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+    text-align: center;
+    color: white;
+}
+#fields{
+    background-color: white;
+    margin-top: -90px;
+    border-radius: 4px;
+    padding-bottom: 70px;
+    box-shadow: 0 0 5px #777777;
+}
+.field-image{
+    padding-top: 20px;
+    display: block;
+    margin: 0px auto;
+}
+.fields-heading{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+}
+.description{
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 19px;
+}
+.details{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(119,16,247);
+    font-family: 'Amaranth', sans-serif;
+    font-size: 20px;
+}
+.indetail{
+    font-family: 'Andika New Basic', sans-serif;
+    text-align: center;
+    font-size: 19px;
+}
+#ul{
+    padding-left: 0%;
+    font-size: 19px;
+}
+.lorem{
+    text-align: center;
+    font-size: 20px; 
+    color:rgb(119,16,247); 
+    padding-top: 25px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.list{
+    display:block;
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+#work{
+    font-size: 40px;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+#work-detail{
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.pics{
+    width: 105% ;
+    height: 98%;
+    border-radius: 3px;
+}
+button{
+    text-align: center;
+    color:rgb(119,16,247);
+    border-color: rgb(119,16,247);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-family: 'Andika New Basic', sans-serif;
+    cursor: pointer;
+}
+#link{
+    text-align: center;
+}
+#companies{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 150px;
+    font-family: 'Amaranth', sans-serif;
+}
+.companies{
+    padding-top: 30px;
+}
+#projects{
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    text-transform: capitalize;   
+}
+#project-def{
+    color: white;
+    font-family: 'Andika New Basic', sans-serif;
+    text-align: center; 
+    font-size: 19px;
+}
+.project-img{
+    padding-top: 20px;
+    display: block;
+    margin: 0px auto;
+}
+.project-detail{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 19px;
+
+}
+#margin{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #777777;
+    padding-bottom: 20px;
+}
+#contact{
+    font-family: 'Amaranth', sans-serif;
+
+}
+#contact-detail{
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+#lets:link{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.icons{
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    display: inline;
+    font-size: 35px;
+  
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    #responsive{
+        text-align: center;
+    }
+    #project-responsive{
+        margin-top: 10px;
+        text-align: center; 
+        margin-left: 25%;
+    }
+    #black{
+        margin-top: -340px;
+    }
+}
+@media screen and (max-width:767px){
+    #responsive{
+        text-align: center;
+    }
+    #companies{
+        text-align: center;
+    }
+    #hero{
+        text-align: center;
+    }
+
+}
+    
